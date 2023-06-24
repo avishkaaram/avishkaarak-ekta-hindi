@@ -33,7 +33,7 @@ Haystack is an NLP framework by deepset. You can use this model in a Haystack pi
 ```python
 reader = FARMReader(model_name_or_path="AVISHKAARAM/avishkaarak-ekta-hindi")
 # or 
-reader = TransformersReader(model_name_or_path="AVISHKAARAM/avishkaarak-ekta-hindi",tokenizer="deepset/roberta-base-squad2")
+reader = TransformersReader(model_name_or_path="AVISHKAARAM/avishkaarak-ekta-hindi",tokenizer="AVISHKAARAM/avishkaarak-ekta-hindi")
 ```
 For a complete example of ``AVISHKAARAM/avishkaarak-ekta-hindi`` being used for  Question Answering, check out the [Tutorials in Haystack Documentation](https://haystack.deepset.ai/tutorials/first-qa-system)
 
