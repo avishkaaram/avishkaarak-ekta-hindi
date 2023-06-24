@@ -46,8 +46,8 @@ model_name = "AVISHKAARAM/avishkaarak-ekta-hindi"
 # a) Get predictions
 nlp = pipeline('question-answering', model=model_name, tokenizer=model_name)
 QA_input = {
-    'question': 'Why is model conversion important?',
-    'context': 'The option to convert models between FARM and transformers gives freedom to the user and let people easily switch between frameworks.'
+    'question': 'What is Bhagavadgita?',
+    'context': 'Bhagavadgita, (Sanskrit: “Song of God”) an episode recorded in the great Sanskrit poem of the Hindus, the Mahabharata. It occupies chapters 23 to 40 of Book VI of the Mahabharata and is composed in the form of a dialogue between Prince Arjuna and Krishna, an avatar (incarnation) of the god Vishnu. Composed perhaps in the 1st or 2nd century CE, it is commonly known as the Gita.'
 }
 res = nlp(QA_input)
 
