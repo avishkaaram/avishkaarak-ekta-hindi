@@ -1,4 +1,4 @@
-# roberta-fine-tuned-squadv2 for QA 
+# Avishkaarak-ekta for QA 
 
 This is the [avishkaarak-ekta-hindi](https://huggingface.co/AVISHKAARAM/avishkaarak-ekta-hindi) model, fine-tuned using the [SQuAD2.0](https://huggingface.co/datasets/squad_v2) dataset. It's been trained on question-answer pairs, including unanswerable questions, for the task of Question Answering. 
 
