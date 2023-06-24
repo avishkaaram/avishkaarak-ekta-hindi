@@ -73,6 +73,6 @@ Evaluated on the SQuAD 2.0 dev set with the [official eval script](https://works
 ```
 
 ## Authors
-**Shashwat Bindal:** optimus.coders.@ai
+**Shashwat Bindal:** avishkaaram.models@gmail.com
 
-**Sanoj:** optimus.coders.@ai
+**Sanoj:** avishkaaram.models@gmail.com
